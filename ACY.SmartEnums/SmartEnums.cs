@@ -1,11 +1,15 @@
-﻿namespace ACY.SmartEnum;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 
-public abstract class SmartEnum<TEnum> where TEnum : SmartEnum<TEnum>
+namespace ACY.SmartEnum;
+
+public abstract class SmartEnums<TEnum> where TEnum : SmartEnums<TEnum>
 {
     public string Name { get; }
     public int Value { get; }
 
-    protected SmartEnum(string name, int value)
+    protected SmartEnums(string name, int value)
     {
         Name = name;
         Value = value;

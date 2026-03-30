@@ -1,9 +1,24 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+    <!-- Framework -->
     <TargetFramework>net8.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
+    <AssemblyName>ACY.SmartEnums</AssemblyName>
+    <RootNamespace>ACY.SmartEnums</RootNamespace>
+
+    <!-- NuGet Paket Bilgileri -->
+    <PackageId>ACY.SmartEnums</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Ali Can Yücel</Authors>
+    <Company>ACY</Company>
+    <Description>SmartEnum library providing type-safe, extensible enums with name and value lookup.</Description>
+    <PackageTags>SmartEnum;Enum;TypeSafe;Pattern;Architecture</PackageTags>
+    <RepositoryUrl>https://github.com/alicanyucel/ACY.SmartEnums</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/alicanyucel/ACY.SmartEnums</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+
+    <!-- Paket üretimi -->
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
 </Project>
